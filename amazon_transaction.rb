@@ -24,7 +24,7 @@ class add_item
   end
 end
 
-eggs = AmazonTransaction.new ("eggs")
+eggs = AmazonTransaction.new ("eggs", "0.98")
 
 
 
