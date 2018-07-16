@@ -26,31 +26,7 @@ amazon_transaction.total = 100
 
 
 
-describe 'AmazonTransaction' do
-  let(:amazon_transaction) { AmazonTransaction.new }
-  let(:amazon_transaction_with_discount) { AmazonTransaction.new(20) }
 
-
-  describe '::new' do
-    it 'sets an instance variable for @total on initialization to zero' do
-      expect(amazon_transaction.instance_variable_get(:@total)).to eq(0)
-    end
-
-    it 'sets an instance variable for @items on initialization equal to an empty array' do
-      expect(amazon_transaction.instance_variable_get(:@items)).to match_array([])
-    end
-
-    it 'takes an *optional* employee discount argument, @discount (using a default argument) on initialization' do
-      expect(amazon_transaction_with_discount.instance_variable_get(:@discount)).to eq(20)
-    end
-  end
-
-  describe '#total' do
-    it 'returns the current total' do
-      amazon_transaction.total = 100
-      expect(amazon_transaction.total).to eq(100)
-    end
-  end
 
   describe '#add_item' do
     it 'accepts two arguments, title and price, and increases the total' do
