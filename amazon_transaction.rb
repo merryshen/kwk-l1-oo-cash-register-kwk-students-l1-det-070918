@@ -1,7 +1,9 @@
 class AmazonTransaction
 end
 
-amazon_transaction
+amazon_transaction = AmazonTransaction.new
+amazon_transaction_with_discount = AmazonTransaction.new
+
   def initialize (total, items, discount)
     @total = 0
     @discount = []
