@@ -1,5 +1,5 @@
 class AmazonTransaction
-  
+  def initialize 
 
 
 
