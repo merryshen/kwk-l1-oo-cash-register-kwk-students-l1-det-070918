@@ -18,6 +18,7 @@ end
 amazon_transaction.total = 100
 
 class add_item
+  def initialize 
 
 
 
