@@ -1,14 +1,13 @@
 class AmazonTransaction
-  def initialize(total)
-    @total = total
-    @discount = discount
-    @items = items
+  def initialize(total, items, discount)
+    @total = 0
+    @discount = []
+    @items = 
   end
 end
 
 
-def sum 
-  
+
 
 
 
