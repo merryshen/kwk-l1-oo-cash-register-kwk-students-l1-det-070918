@@ -19,6 +19,8 @@ amazon_transaction.total = 100
 
 class add_item
   def initialize (title, price)
+    @title = title
+    @price = price
 
 
 
