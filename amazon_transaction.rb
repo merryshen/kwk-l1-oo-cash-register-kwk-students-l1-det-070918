@@ -15,6 +15,8 @@ def initialize (total)
   @total = total
 end
 
+amazon_transaction.total = 100
+
 
 
 
