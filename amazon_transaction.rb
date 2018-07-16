@@ -21,6 +21,10 @@ class add_item
   def initialize (title, price)
     @title = title
     @price = price
+  end
+end
+
+
 
 
 
