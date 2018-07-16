@@ -1,9 +1,11 @@
 class AmazonTransaction
   def initialize(total)
-    @total == 0
-    @discount 
+    @total = total
+    @discount = discount
+    @items = items
   end
 end
+
 
 
 
