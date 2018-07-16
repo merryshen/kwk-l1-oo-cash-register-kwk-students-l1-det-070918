@@ -7,6 +7,10 @@ class AmazonTransaction
 end
 
 
+def sum 
+  
+
+
 
 
 
