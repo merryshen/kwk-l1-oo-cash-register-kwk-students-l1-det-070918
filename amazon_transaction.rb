@@ -9,7 +9,6 @@ amazon_transaction_with_discount = AmazonTransaction.new
     @discount = []
     @items = 20
   end
-end
 
 def initialize (total)
   @total = total
